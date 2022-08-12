@@ -63,11 +63,6 @@ const ResultComponent = ({
     const timer = setTimeout(() => {
     if((localStorage.getItem('prediction')))
     setResult(JSON.parse(localStorage.getItem('prediction')));
-    // if(result.firstName == 'gihan' ){
-    //   setIsDeafult(false)
-    // } else {
-    //   setIsDeafult(true)
-    // }
     console.log(result.firstName);
     }, 2000);
     return () => clearTimeout(timer);
@@ -230,10 +225,6 @@ const ResultComponent = ({
                     <CardContent>
                     
                         { customerStatus }
-                        {/* <CircularProgress size={100} thickness={5} variant="determinate" value={result.safe_factor*100} /><br/>
-                        <Chip color='primary' label={`${result.safe_factor} %`}/><br/>
-                        <p className={classes.safefactorstyle}>No of arreas rental Limit</p>
-                        <Chip color='primary' label={`${result.arreas_rentals} / 36`}/><br/> */}
                         <hr/>
                         {/* predicted loan amount */}
                         {loanAmountLabel}

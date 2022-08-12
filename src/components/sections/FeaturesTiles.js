@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'How strong you are ?',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'What is TapToLoan ?',
+    paragraph: 'TapToLoan is an AI powered end-end-solution for financial institutes to loan default prediction. This application has powerful capabilities to take accurate prediction decisions by handling the real world data. '
   };
 
   return (

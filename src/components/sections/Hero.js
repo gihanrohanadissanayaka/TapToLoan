@@ -63,20 +63,17 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Loan default predictor for <span className="text-color-primary">BANKERS</span>
+            <span className="text-color-primary">AI Powered</span> Loan default predictor for financial institutes
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                end to end solution for loan default prediction
+                End to end loan default prediction for financial institute using Machine Learning
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="/form">
-                    Check Results
+                    Apply for Lease
                     </Button>
-                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button> */}
                 </ButtonGroup>
               </div>
             </div>
@@ -84,34 +81,13 @@ const Hero = ({
           </div>
           <ReactPlayer
                 className="has-shadow"
-                url="https://www.youtube.com/watch?v=9pmjTLTL4sc&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbA&start_radio=1&rv=FFHDAySwmvs"
+                url="https://youtu.be/xM-h-_TUJOo"
                 alt="Hero"
                 controls
                 
                 width={896}
                 height={504} 
                 />
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" /> */}
         </div>
       </div>
     </section>
